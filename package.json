@@ -1,0 +1,16 @@
+{
+  "name": "ddd-node-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Eduardo Esteban Álvarez Castañeda",
+    "email": "soy@eduardoalvarez.dev",
+    "url": "https://eduardoalvarez.dev"
+  }
+}
