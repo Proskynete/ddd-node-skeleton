@@ -1,0 +1,4 @@
+services:
+  StatusGetController:
+    class: ../../controllers/StatusGetController
+    arguments: []
