@@ -1,6 +1,6 @@
 import compress from 'compression';
 import errorHandler from 'errorhandler';
-import express, { NextFunction, Request, Response } from 'express';
+import express, { Request, Response } from 'express';
 import Router from 'express-promise-router';
 import helmet from 'helmet';
 import * as http from 'http';
@@ -28,7 +28,7 @@ export class Server {
 
     registerRoutes(router);
 
-    router.use((err: Error, _req: Request, res: Response, next: NextFunction) => {
+    router.use((err: Error, _req: Request, res: Response) => {
       console.log(err);
       res.status(httpStatus.INTERNAL_SERVER_ERROR).send(err.message);
     });
