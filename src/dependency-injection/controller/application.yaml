@@ -2,3 +2,7 @@ services:
   StatusGetController:
     class: ../../controllers/StatusGetController
     arguments: []
+
+  ExampleGetController:
+    class: ../../controllers/ExampleGetController
+    arguments: []
